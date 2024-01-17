@@ -2,10 +2,11 @@ body{
     background-color: black;
 }
 
-/* header{
-    background-color: aliceblue;
-
-} */
+header{
+    /* background-color: rgb(1, 14, 26); */
+    background: url(../../assets/people.jpg);
+    height: 95vh;
+}
 
 #navBarSec {
     display: flex;
@@ -13,11 +14,7 @@ body{
 }
 
 #navSec{
-    /* background-color: rgb(255, 255, 255); */
-    /* border: 2px solid brown; */
-
     display: flex;
-    /* max-width: 50%; */
 }
 
 .subNavSec{
@@ -50,3 +47,97 @@ body{
     width: 6vw;
     height: 10vh;
 }
+
+header>h1{
+    color: aliceblue;
+}
+
+#mainTextOne{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: -28vw;
+    margin-top: 25vh;
+}
+
+#mainTextTwo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-left: 5vw;
+    margin-top: -5vh;
+    font-size: 15vh;
+}
+
+#mainSec{
+    position: relative;
+    background-color: rgb(201, 195, 195);
+    margin-top: -5%;
+    height: auto;
+}
+
+.titles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 40vw;
+    margin-bottom: 5%;
+    font-size: xxx-large;
+}
+
+    section{
+        width: 95%;
+        height: auto;
+        margin-left: 2.5%;
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
+        gap: 9px;
+    }
+
+    section > div {
+        background-size: cover;
+        background-position: center;
+    }
+
+    section>div>img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    section>div:nth-child(1){
+        grid-column: 1/3;
+        background-color: #041676;
+    }
+
+    section>div:nth-child(2){
+        background-color: #760404;
+    }
+
+    section>div:nth-child(3) {
+        grid-row: 1/4;
+        grid-column: 4/5;
+        background-color: #04761d;
+    }
+
+    section>div:nth-child(4) {
+        background-color: #470476;
+    }
+
+    section>div:nth-child(5) {
+        background-color: #764c04;
+    }
+
+    section>div:nth-child(6) {
+        background-color: #9cf167;
+    }
+
+    section>div:nth-child(7) {
+        background-color: #e33636;
+    }
+
+    section>div:nth-child(8) {
+        grid-column: 2/4;
+        grid-row: 3/4;
+        background-color: #05060e;
+    }
