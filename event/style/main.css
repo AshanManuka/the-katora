@@ -22,7 +22,7 @@ header{
     margin-right: 1vw;
 }
 
-.subNavSec>a{
+a{
     text-decoration: none;
     color: aliceblue;
 }
@@ -141,3 +141,68 @@ header>h1{
         grid-row: 3/4;
         background-color: #05060e;
     }
+
+
+#goCollection{
+    font-family: sans-serif;
+    display: inline;
+    font-size: x-large;
+    font-weight: 900;
+    color: #05060e;
+}
+
+#goBtn{
+    display: inline;
+    width: fit-content ;
+    margin-left: 44vw;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: #c8d6e5;
+    background-color: #8b97a3;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#aboutDiv{
+    background-color: #05060e;
+
+}
+
+.titleTwo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 40vw;
+    margin-bottom: 5%;
+    font-size: xxx-large;
+    color: aliceblue;
+}
+
+#subaAbout{
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+#subTitle{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.aboutText{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+
+}
