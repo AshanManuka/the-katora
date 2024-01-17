@@ -41,11 +41,13 @@ a{
     margin-left: 2vw;
     margin-top: -10vh;
     background-color: aliceblue;
+    border-radius: 5px;
 }
 
-#logoImage{
+.logoImage{
     width: 6vw;
     height: 10vh;
+    border-radius: 5px;
 }
 
 header>h1{
@@ -204,5 +206,80 @@ header>h1{
     max-width: 600px; 
     margin: 0 auto; 
     padding: 20px;
+}
 
+#contactSec{
+    margin-top: 5vh;
+    background-color: #000000;
+}
+
+#contactSecOne{
+    margin-left: 10vw;
+}
+
+#contactSecTwo{
+    margin-top: 12vh;
+    margin-left: 6vw;
+}
+
+#contactSecThree{
+    margin-left: 45vw;
+    margin-top: -30vh;
+}
+
+#contactSecOne>h4{
+    color: aliceblue;
+    margin-right: 1vw;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 auto; 
+    padding: 5px;
+}
+
+#simpleText{
+    color: aliceblue;
+    font-weight: 900;
+    font-size: x-large;
+    margin: 0 auto; 
+    padding: 5px;
+}
+
+.iconSec{
+    position: relative;
+    display: inline-block;
+    width: 5vw;
+    height: 10vh;
+    margin-left: 2vw;
+    margin-top: -10vh;
+    border-radius: 50px;
+    background-color: aliceblue;
+    border: 1px solid silver;
+}
+
+.logoImageTwo{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50px;
+}
+
+.fields{
+    width: 25vw;
+    border-radius: 5px;
+    height: 5vh;
+    border: 0;
+}
+
+#subBtn{
+    width: 20vw;
+    border-radius: 5px;
+    margin-left: 2.5vw;
+    height: 5vh;
+    border: 1px solid silver;
+    background-color: #79ace2;
+}
+
+#footerText{
+    margin-top: 5vh;
+    color: #c8d6e5;
+    text-align: center;
 }

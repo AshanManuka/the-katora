@@ -18,9 +18,37 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: inline-block;
         margin-top: 3%;
-        margin-left: 35vw;
+        margin-left: 30vw;
         margin-bottom: 5%;
         font-size: xxx-large;
+    }
+
+    .titleTwo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 30vw;
+        margin-bottom: 5%;
+        font-size: xxx-large;
+        color: aliceblue;
+    }
+
+    .iconSec{
+        position: relative;
+        display: inline-block;
+        width: 9vw;
+        height: 10vh;
+        margin-left: 2vw;
+        margin-top: -10vh;
+        border-radius: 50px;
+        background-color: aliceblue;
+        border: 1px solid silver;
+    }
+    
+    .logoImageTwo{
+        width: 9vw;
+        height: 10vh;
+        border-radius: 50px;
     }
 
 
@@ -45,9 +73,37 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: inline-block;
         margin-top: 3%;
-        margin-left: 35vw;
+        margin-left: 30vw;
         margin-bottom: 5%;
         font-size: xxx-large;
+    }
+
+    .titleTwo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 30vw;
+        margin-bottom: 5%;
+        font-size: xxx-large;
+        color: aliceblue;
+    }
+
+    .iconSec{
+        position: relative;
+        display: inline-block;
+        width: 9vw;
+        height: 10vh;
+        margin-left: 2vw;
+        margin-top: -10vh;
+        border-radius: 50px;
+        background-color: aliceblue;
+        border: 1px solid silver;
+    }
+    
+    .logoImageTwo{
+        width: 9vw;
+        height: 10vh;
+        border-radius: 50px;
     }
 
 
