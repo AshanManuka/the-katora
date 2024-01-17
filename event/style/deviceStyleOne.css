@@ -1,0 +1,56 @@
+
+/* Laptop Size */
+@media all and (max-width: 1200px) {
+
+    .subNavSec{
+        width: 10vw;
+        margin-right: 1vw;
+    }
+
+    .subNavSec>a>h4{
+        color: aliceblue;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3vh;  /*neet to be edit*/   
+    }
+
+
+}
+
+/* Tablet Size */
+@media all and (max-width: 993px) {
+
+    .subNavSec{
+        width: 15vw;
+        margin-right: 1vw;
+    }
+
+    .subNavSec>a>h4{
+        color: aliceblue;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3vh;  /*neet to be edit*/   
+    }
+
+
+}
+
+
+
+/* Tablet Size */
+@media all and (max-width: 768px) {
+
+    .subNavSec{
+        width: 15vw;
+        margin-right: 1vw;
+    }
+
+    .subNavSec>a>h4{
+        color: aliceblue;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3vh;  /*neet to be edit*/   
+    }
+
+
+}
