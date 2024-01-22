@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) and (max-width: 950px) {
+
+    #navSec{
+        display: flex;
+        margin-left: -18vw;
+    }
+
+    #navBarSec {
+        position: absolute;
+        margin-left: 75vw;
+        margin-top: -1vh;
+    }
+
+    #navBarSecOne{
+        width: 12vw;
+    }
+
+    #navBarSecTwo{
+        width: 12vw;
+    }
+
+    #navBarSecThree{
+        width: auto;
+
+    }
+
+    .subNavSec>a>h4{
+        color: aliceblue;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3vh;  /*neet to be edit*/   
+    }
+
+    #logoSec{
+        position: relative;
+        display: inline-block;
+        width: 9vw;
+        height: 19vh;
+        margin-left: 4vw;
+        margin-top: 2vh;
+        border-radius: 50px;
+        background-color: aliceblue;
+        border: 1px solid silver;
+    }
+    
+    .logoImage{
+        width: 9vw;
+        height: 19vh;
+        border-radius: 50px;
+    }
+
+    #mainTextTwo{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-left: 5vw;
+        margin-top: -5vh;
+        font-size: 10vh;
+    }
+
+    #mainTextOne{
+        margin-top: 8vh;
+    }
+
+    .titles{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 30vw;
+        margin-bottom: 5%;
+        font-size: xxx-large;
+    }
+
+    .titleTwo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 30vw;
+        margin-bottom: 5%;
+        font-size: xxx-large;
+        color: aliceblue;
+    }
+
+    #titleThree{
+        margin-left: 28vw;
+        margin-top: -5vh;
+        margin-bottom: 5vh;
+    }
+
+    #contactSecThree{
+        margin-left: 55vw;
+        margin-top: -40vh;
+    }
+
+}
