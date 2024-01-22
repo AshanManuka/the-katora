@@ -1,131 +1,156 @@
 
 /* Laptop Size */
-@media all and (max-width: 1200px) {
+@media screen and (min-width: 300px) and (max-width: 400px) {
 
-    .subNavSec{
+    #navSec{
+        display: flex;
+        margin-left: -15vw;
+    }
+
+    #navBarSec {
+        position: absolute;
+        margin-left: 42vw;
+        margin-top: -1vh;
+    }
+
+    #navBarSecOne{
+        width: 22vw;
+    }
+
+    #navBarSecTwo{
+        width: 22vw;
+    }
+
+    #navBarSecThree{
+        width: 26vw;
+    }
+
+    .subNavSec>a>h4{
+        color: aliceblue;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3vh;  /*neet to be edit*/   
+    }
+
+    #logoSec{
+        position: relative;
+        display: inline-block;
+        width: 16vw;
+        height: 9vh;
+        margin-left: 4vw;
+        margin-top: 2vh;
+        border-radius: 50px;
+        background-color: aliceblue;
+        border: 1px solid silver;
+    }
+    
+    .logoImage{
+        width: 16vw;
+        height: 9vh;
+        border-radius: 50px;
+    }
+
+    #mainTextTwo{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-left: 5vw;
+        margin-top: -5vh;
+        font-size: 10vh;
+    }
+
+    #mainTextOne{
+        margin-top: 8vh;
+    }
+
+    header{
+        height: 50vh;
+    }
+
+    .naviBtn{
+        width: 45vw;
+        border-radius: 15px;
+        background-color: #95a5a6;
+        border: 1px solid rgb(140, 216, 235);
+    }
+
+    #clothingBtn{
+        margin-bottom: 5vh;
+        margin-top: 3vh;
+        margin-left: 2vw;
+    }
+
+    .titles{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 18vw;
+        margin-bottom: 5%;
+        font-size: xxx-large;
+    }
+
+    .titleTwo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: inline-block;
+        margin-top: 3%;
+        margin-left: 18vw;
+        margin-bottom: 5%;
+        font-size: xxx-large;
+        color: aliceblue;
+    }
+
+    #titleThree{
+        margin-left: 12vw;
+    }
+
+    #contactSecOne{
+        margin-left: 3vw;
+        margin-top: 2vh;
+    }
+
+    #contactSecThree{
+        margin-left: 55vw;
+        margin-top: -30vh;
+    }
+
+    .fields{
+        width: 40vw;
+        border-radius: 5px;
+        height: 3vh;
+        border: 0;
+    }
+
+    #subBtn{
+        width: 30vw;
+        border-radius: 5px;
+        margin-left: 7vw;
+        height: 3vh;
+        border: 1px solid silver;
+        background-color: #79ace2;
+    }
+
+    .logoImageTwo{
         width: 10vw;
-        margin-right: 1vw;
-    }
-
-    .subNavSec>a>h4{
-        color: aliceblue;
-        font-size: large;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 3vh;  /*neet to be edit*/   
-    }
-
-
-}
-
-/* Tablet Size */
-@media all and (max-width: 993px) {
-
-    .subNavSec{
-        width: 15vw;
-        margin-right: 1vw;
-    }
-
-    .subNavSec>a>h4{
-        color: aliceblue;
-        font-size: large;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 3vh;  /*neet to be edit*/   
-    }
-
-    .titles{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: inline-block;
-        margin-top: 3%;
-        margin-left: 35vw;
-        margin-bottom: 5%;
-        font-size: xxx-large;
-    }
-
-    .titleTwo{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: inline-block;
-        margin-top: 3%;
-        margin-left: 35vw;
-        margin-bottom: 5%;
-        font-size: xxx-large;
-        color: aliceblue;
+        height: 6vh;
+        border-radius: 50px;
     }
 
     .iconSec{
         position: relative;
         display: inline-block;
-        width: 7vw;
-        height: 10vh;
-        margin-left: 2vw;
-        margin-top: -10vh;
+        width: 10vw;
+        height: 6vh;
+        margin-left: 1vw;
         border-radius: 50px;
         background-color: aliceblue;
         border: 1px solid silver;
     }
+
+    #contactSecTwo{
+        margin-top: 10vh;
+        margin-left: 6vw;
+    }
+
     
-    .logoImageTwo{
-        width: 7vw;
-        height: 10vh;
-        border-radius: 50px;
-    }
-
-
-}
-
-
-
-/* Tablet Size */
-@media all and (max-width: 768px) {
-
-    .subNavSec{
-        width: 15vw;
-        margin-right: 1vw;
-    }
-
-    .subNavSec>a>h4{
-        color: aliceblue;
-        font-size: large;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 3vh;  /*neet to be edit*/   
-    }
-
-    .titles{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: inline-block;
-        margin-top: 3%;
-        margin-left: 35vw;
-        margin-bottom: 5%;
-        font-size: xxx-large;
-    }
-
-    .titleTwo{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: inline-block;
-        margin-top: 3%;
-        margin-left: 35vw;
-        margin-bottom: 5%;
-        font-size: xxx-large;
-        color: aliceblue;
-    }
-
-    .iconSec{
-        position: relative;
-        display: inline-block;
-        width: 8vw;
-        height: 10vh;
-        margin-left: 2vw;
-        margin-top: -10vh;
-        border-radius: 50px;
-        background-color: aliceblue;
-        border: 1px solid silver;
-    }
-    
-    .logoImageTwo{
-        width: 8vw;
-        height: 10vh;
-        border-radius: 50px;
-    }
-
 
 
 }
