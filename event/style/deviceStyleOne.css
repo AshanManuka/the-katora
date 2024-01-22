@@ -1,10 +1,9 @@
 
-/* Laptop Size */
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 340px) {
 
     #navSec{
         display: flex;
-        margin-left: -15vw;
+        margin-left: -18vw;
     }
 
     #navBarSec {
@@ -18,16 +17,17 @@
     }
 
     #navBarSecTwo{
-        width: 22vw;
+        width: 25vw;
     }
 
     #navBarSecThree{
-        width: 26vw;
+        width: 28vw;
+        margin-left: -2vw;
     }
 
     .subNavSec>a>h4{
         color: aliceblue;
-        font-size: large;
+        font-size: medium;
         font-family: Arial, Helvetica, sans-serif;
         margin-top: 3vh;  /*neet to be edit*/   
     }
@@ -83,27 +83,29 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: inline-block;
         margin-top: 3%;
-        margin-left: 18vw;
+        margin-left: 22vw;
         margin-bottom: 5%;
-        font-size: xxx-large;
+        font-size: xx-large;
     }
 
     .titleTwo{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: inline-block;
         margin-top: 3%;
-        margin-left: 18vw;
+        margin-left: 23vw;
         margin-bottom: 5%;
-        font-size: xxx-large;
+        font-size: xx-large;
         color: aliceblue;
     }
 
     #titleThree{
-        margin-left: 12vw;
+        margin-left: 23vw;
+        margin-top: -5vh;
+        margin-bottom: 5vh;
     }
 
     #contactSecOne{
-        margin-left: 3vw;
+        margin-left: 1vw;
         margin-top: 2vh;
     }
 
